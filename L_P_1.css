@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #cfa5b1;
+    display: flex;
+}
+
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: red; */
+}
+#part2{
+    height: 100%;
+    width: 68%;
+    /* background-color: rgb(54, 54, 245); */
+    background-image: url(https://images.unsplash.com/photo-1532171875345-9712d9d4f65a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1915&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #58433eaa;
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    /* background: lightgreen; */
+}
+#text-div{
+    /* height: 300px; */
+    width: 610px;
+    position:absolute;
+    /* background-color: #6c5b5f; */
+    left: 7%;
+    /* top: 50%; */
+    transform: translate(0% , 70%);
+}
+@font-face {
+    font-family: monument;
+    src: url(Monument_font/MonumentExtended-Ultrabold.otf);
+}
+#text-div{
+    font-size: 40px;
+    font-family: monument;
+    font-weight: 1000;
+    letter-spacing: 7px;
+    line-height: 82px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+#small-img-div{
+    height: 400px;
+    width: 340px;
+    /* background-color: gray; */
+    position: absolute;
+    right:3%;
+    top: 19%;
+    background-image: url(https://images.unsplash.com/photo-1611601679655-7c8bc197f0c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#dull{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.412);
+}
+
+#vertical-text{
+    position: absolute;
+    right: -26%;
+    top: 40%;
+}
+#vertical-text h1{
+    font-size: 60px;
+    letter-spacing: 10px;
+    font-family: monument;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: transparent;
+
+    transform: rotate(90deg);
+
+    -webkit-text-stroke-width: 1px;    /*  this is bountry */
+    -webkit-text-stroke-color: #ede8e8;
+}
+#nav{
+    position: absolute;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    left: 6.5%;
+    top: 8%;
+}
+#nav img{
+    height: 70px;
+}
+#nav h5{
+    font-size: 12px;
+    font-family: monument;
+    letter-spacing: 5px;
+    color: #fff;
+}
+
